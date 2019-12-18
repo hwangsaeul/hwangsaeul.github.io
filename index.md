@@ -17,12 +17,12 @@ The final goal is to implement whole software stacks from embedded system to use
 ## Overview
 The ecosystem consists of a distributed system that allows clients to access Edge devices streaming using SRT protocol to provide ultra low latency video.
 
-![SRT System Overview ](./assets/img/h8l-system-overview.png)
+![SRT System Overview](./assets/img/h8l-system-overview.png)
 
 ## Modules
 *   [Chamge](https://github.com/hwangsaeul/chamge/blob/master/README.md): Control channel for the SRT environmet
 
-*   [Gaeguli ](https://github.com/hwangsaeul/gaeguli/blob/master/README.md): SRT streaming library generator
+*   [Gaeguli](https://github.com/hwangsaeul/gaeguli/blob/master/README.md): SRT streaming library generator
 
 *   [Gaeul](https://github.com/hwangsaeul/gaeul/blob/master/README.md): Edge device agent to generate streaming
 
