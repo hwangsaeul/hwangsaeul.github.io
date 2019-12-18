@@ -26,8 +26,6 @@ The ecosystem consists of a distributed system that allows clients to access Edg
 
 *   [Gaeul](https://github.com/hwangsaeul/gaeul/blob/master/README.md): Edge device agent to generate streaming
 
-*   [SRT](https://github.com/hwangsaeul/libsrt/blob/master/README.md): Library for SRT protocol
-
 *   [Hoppfish](https://github.com/hwangsaeul/hoppfish/blob/master/README.md): REST API implementation
 
 *   [Hwangsae](https://github.com/hwangsaeul/hwangsae/blob/master/README.md): Relay and Recorder servers
