@@ -24,7 +24,7 @@ The ecosystem consists of a distributed system that allows clients to access Edg
 
 *   [Gaeguli](https://github.com/hwangsaeul/gaeguli/blob/master/README.md): SRT streaming library generator
 
-*   [Gaeul](https://github.com/hwangsaeul/gaeul/blob/master/README.md): Edge device agent to generate streaming
+*   [Gaeul](https://github.com/hwangsaeul/gaeul/blob/master/README.md): A reference application that uses *Chamge* and *Gaeguli* to generate SRT stream on edge device
 
 *   [Hoppfish](https://github.com/hwangsaeul/hoppfish/blob/master/README.md): REST API implementation
 
