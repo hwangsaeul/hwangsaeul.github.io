@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<book xmlns="http://www.devhelp.net/book" title="Hwangsae API reference" link="index.html" author="" name="hwangsae" version="2" language="c">
+  <chapters>
+    <sub name="Broker APIs" link="Broker APIs.html">
+      <sub name="Hwangsae Types" link="hwangsae-Hwangsae-Types.html"/>
+      <sub name="HwangsaeRelay" link="hwangsae-HwangsaeRelay.html"/>
+      <sub name="HwangsaeRecorder" link="hwangsae-HwangsaeRecorder.html"/>
+      <sub name="config" link="hwangsae-config.html"/>
+    </sub>
+    <sub name="D-Bus related functions" link="D-Bus related functions.html">
+      <sub name="Hwangsae1DBusEdgeInterfaceSkeleton" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html"/>
+      <sub name="Hwangsae1DBusRecorderInterfaceSkeleton" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <keyword type="macro" name="HWANGSAE_API_EXPORT" link="hwangsae-Hwangsae-Types.html#HWANGSAE-API-EXPORT:CAPS"/>
+    <keyword type="enum" name="enum HwangsaeReturn" link="hwangsae-Hwangsae-Types.html#HwangsaeReturn"/>
+    <keyword type="enum" name="enum HwangsaeContainer" link="hwangsae-Hwangsae-Types.html#HwangsaeContainer"/>
+    <keyword type="function" name="hwangsae_relay_new ()" link="hwangsae-HwangsaeRelay.html#hwangsae-relay-new"/>
+    <keyword type="function" name="hwangsae_relay_get_sink_uri ()" link="hwangsae-HwangsaeRelay.html#hwangsae-relay-get-sink-uri"/>
+    <keyword type="function" name="hwangsae_relay_get_source_uri ()" link="hwangsae-HwangsaeRelay.html#hwangsae-relay-get-source-uri"/>
+    <keyword type="macro" name="HWANGSAE_TYPE_RELAY" link="hwangsae-HwangsaeRelay.html#HWANGSAE-TYPE-RELAY:CAPS"/>
+    <keyword type="struct" name="HwangsaeRelay" link="hwangsae-HwangsaeRelay.html#HwangsaeRelay"/>
+    <keyword type="function" name="hwangsae_recorder_new ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-new"/>
+    <keyword type="function" name="hwangsae_recorder_set_container ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-set-container"/>
+    <keyword type="function" name="hwangsae_recorder_get_container ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-get-container"/>
+    <keyword type="function" name="hwangsae_recorder_set_max_size_time ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-set-max-size-time"/>
+    <keyword type="function" name="hwangsae_recorder_get_max_size_time ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-get-max-size-time"/>
+    <keyword type="function" name="hwangsae_recorder_set_max_size_bytes ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-set-max-size-bytes"/>
+    <keyword type="function" name="hwangsae_recorder_get_max_size_bytes ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-get-max-size-bytes"/>
+    <keyword type="function" name="hwangsae_recorder_set_recording_dir ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-set-recording-dir"/>
+    <keyword type="function" name="hwangsae_recorder_get_recording_dir ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-get-recording-dir"/>
+    <keyword type="function" name="hwangsae_recorder_set_filename_prefix ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-set-filename-prefix"/>
+    <keyword type="function" name="hwangsae_recorder_get_filename_prefix ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-get-filename-prefix"/>
+    <keyword type="function" name="hwangsae_recorder_start_recording ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-start-recording"/>
+    <keyword type="function" name="hwangsae_recorder_stop_recording ()" link="hwangsae-HwangsaeRecorder.html#hwangsae-recorder-stop-recording"/>
+    <keyword type="macro" name="HWANGSAE_TYPE_RECORDER" link="hwangsae-HwangsaeRecorder.html#HWANGSAE-TYPE-RECORDER:CAPS"/>
+    <keyword type="struct" name="HwangsaeRecorder" link="hwangsae-HwangsaeRecorder.html#HwangsaeRecorder"/>
+    <keyword type="macro" name="LIBDIR" link="hwangsae-config.html#LIBDIR:CAPS"/>
+    <keyword type="macro" name="PACKAGE" link="hwangsae-config.html#PACKAGE:CAPS"/>
+    <keyword type="macro" name="PACKAGE_NAME" link="hwangsae-config.html#PACKAGE-NAME:CAPS"/>
+    <keyword type="macro" name="PACKAGE_STRING" link="hwangsae-config.html#PACKAGE-STRING:CAPS"/>
+    <keyword type="macro" name="VERSION" link="hwangsae-config.html#VERSION:CAPS"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_interface_info ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-interface-info"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_override_properties ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-override-properties"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_complete_register ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-complete-register"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_complete_delete ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-complete-delete"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_complete_stop ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-complete-stop"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_complete_start ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-complete-start"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_complete_change_parameters ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-complete-change-parameters"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_complete_get_edge_status ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-complete-get-edge-status"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_register ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-register"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_register_finish ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-register-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_register_sync ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-register-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_delete ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-delete"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_delete_finish ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-delete-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_delete_sync ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-delete-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_stop ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-stop"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_stop_finish ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-stop-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_stop_sync ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-stop-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_start ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-start"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_start_finish ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-start-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_start_sync ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-start-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_change_parameters ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-change-parameters"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_change_parameters_finish ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-change-parameters-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_change_parameters_sync ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-change-parameters-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_get_edge_status ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-get-edge-status"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_get_edge_status_finish ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-get-edge-status-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_call_get_edge_status_sync ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-call-get-edge-status-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_get_edges ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-get-edges"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_set_edges ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-set-edges"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_proxy_new ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-proxy-new"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_proxy_new_finish ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-proxy-new-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_proxy_new_sync ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-proxy-new-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_proxy_new_for_bus ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-proxy-new-for-bus"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_proxy_new_for_bus_finish ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-proxy-new-for-bus-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_proxy_new_for_bus_sync ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-proxy-new-for-bus-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_edge_interface_skeleton_new ()" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#hwangsae1-dbus-edge-interface-skeleton-new"/>
+    <keyword type="struct" name="struct Hwangsae1DBusEdgeInterfaceIface" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceIface"/>
+    <keyword type="struct" name="struct Hwangsae1DBusEdgeInterfaceProxy" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceProxy"/>
+    <keyword type="struct" name="struct Hwangsae1DBusEdgeInterfaceProxyClass" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceProxyClass"/>
+    <keyword type="struct" name="struct Hwangsae1DBusEdgeInterfaceSkeleton" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceSkeleton"/>
+    <keyword type="struct" name="struct Hwangsae1DBusEdgeInterfaceSkeletonClass" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceSkeletonClass"/>
+    <keyword type="struct" name="Hwangsae1DBusEdgeInterface" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterface"/>
+    <keyword type="struct" name="Hwangsae1DBusEdgeInterfaceProxyPrivate" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceProxyPrivate"/>
+    <keyword type="struct" name="Hwangsae1DBusEdgeInterfaceSkeletonPrivate" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceSkeletonPrivate"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_interface_info ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-interface-info"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_override_properties ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-override-properties"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_complete_stop ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-complete-stop"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_complete_start ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-complete-start"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_complete_lookup_by_record ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-complete-lookup-by-record"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_complete_lookup_by_edge ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-complete-lookup-by-edge"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_complete_url ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-complete-url"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_complete_delete ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-complete-delete"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_stop ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-stop"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_stop_finish ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-stop-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_stop_sync ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-stop-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_start ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-start"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_start_finish ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-start-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_start_sync ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-start-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_lookup_by_record ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-lookup-by-record"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_lookup_by_record_finish ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-lookup-by-record-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_lookup_by_record_sync ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-lookup-by-record-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_lookup_by_edge ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-lookup-by-edge"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_lookup_by_edge_finish ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-lookup-by-edge-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_lookup_by_edge_sync ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-lookup-by-edge-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_url ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-url"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_url_finish ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-url-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_url_sync ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-url-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_delete ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-delete"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_delete_finish ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-delete-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_call_delete_sync ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-call-delete-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_proxy_new ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-proxy-new"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_proxy_new_finish ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-proxy-new-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_proxy_new_sync ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-proxy-new-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_proxy_new_for_bus ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-proxy-new-for-bus"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_proxy_new_for_bus_finish ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-proxy-new-for-bus-finish"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_proxy_new_for_bus_sync ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-proxy-new-for-bus-sync"/>
+    <keyword type="function" name="hwangsae1_dbus_recorder_interface_skeleton_new ()" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#hwangsae1-dbus-recorder-interface-skeleton-new"/>
+    <keyword type="struct" name="struct Hwangsae1DBusRecorderInterfaceIface" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceIface"/>
+    <keyword type="struct" name="struct Hwangsae1DBusRecorderInterfaceProxy" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceProxy"/>
+    <keyword type="struct" name="struct Hwangsae1DBusRecorderInterfaceProxyClass" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceProxyClass"/>
+    <keyword type="struct" name="struct Hwangsae1DBusRecorderInterfaceSkeleton" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceSkeleton"/>
+    <keyword type="struct" name="struct Hwangsae1DBusRecorderInterfaceSkeletonClass" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceSkeletonClass"/>
+    <keyword type="struct" name="Hwangsae1DBusRecorderInterface" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterface"/>
+    <keyword type="struct" name="Hwangsae1DBusRecorderInterfaceProxyPrivate" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceProxyPrivate"/>
+    <keyword type="struct" name="Hwangsae1DBusRecorderInterfaceSkeletonPrivate" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceSkeletonPrivate"/>
+    <keyword type="constant" name="HWANGSAE_RETURN_FAIL" link="hwangsae-Hwangsae-Types.html#HWANGSAE-RETURN-FAIL:CAPS"/>
+    <keyword type="constant" name="HWANGSAE_RETURN_OK" link="hwangsae-Hwangsae-Types.html#HWANGSAE-RETURN-OK:CAPS"/>
+    <keyword type="constant" name="HWANGSAE_CONTAINER_MP4" link="hwangsae-Hwangsae-Types.html#HWANGSAE-CONTAINER-MP4:CAPS"/>
+    <keyword type="constant" name="HWANGSAE_CONTAINER_TS" link="hwangsae-Hwangsae-Types.html#HWANGSAE-CONTAINER-TS:CAPS"/>
+    <keyword type="member" name="Hwangsae1DBusEdgeInterfaceIface.parent-iface" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceIface.parent-iface"/>
+    <keyword type="member" name="Hwangsae1DBusEdgeInterfaceIface.handle-change-parameters" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceIface.handle-change-parameters"/>
+    <keyword type="member" name="Hwangsae1DBusEdgeInterfaceIface.handle-delete" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceIface.handle-delete"/>
+    <keyword type="member" name="Hwangsae1DBusEdgeInterfaceIface.handle-get-edge-status" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceIface.handle-get-edge-status"/>
+    <keyword type="member" name="Hwangsae1DBusEdgeInterfaceIface.handle-register" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceIface.handle-register"/>
+    <keyword type="member" name="Hwangsae1DBusEdgeInterfaceIface.handle-start" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceIface.handle-start"/>
+    <keyword type="member" name="Hwangsae1DBusEdgeInterfaceIface.handle-stop" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceIface.handle-stop"/>
+    <keyword type="member" name="Hwangsae1DBusEdgeInterfaceIface.get-edges" link="hwangsae-Hwangsae1DBusEdgeInterfaceSkeleton.html#Hwangsae1DBusEdgeInterfaceIface.get-edges"/>
+    <keyword type="member" name="Hwangsae1DBusRecorderInterfaceIface.parent-iface" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceIface.parent-iface"/>
+    <keyword type="member" name="Hwangsae1DBusRecorderInterfaceIface.handle-delete" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceIface.handle-delete"/>
+    <keyword type="member" name="Hwangsae1DBusRecorderInterfaceIface.handle-lookup-by-edge" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceIface.handle-lookup-by-edge"/>
+    <keyword type="member" name="Hwangsae1DBusRecorderInterfaceIface.handle-lookup-by-record" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceIface.handle-lookup-by-record"/>
+    <keyword type="member" name="Hwangsae1DBusRecorderInterfaceIface.handle-start" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceIface.handle-start"/>
+    <keyword type="member" name="Hwangsae1DBusRecorderInterfaceIface.handle-stop" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceIface.handle-stop"/>
+    <keyword type="member" name="Hwangsae1DBusRecorderInterfaceIface.handle-url" link="hwangsae-Hwangsae1DBusRecorderInterfaceSkeleton.html#Hwangsae1DBusRecorderInterfaceIface.handle-url"/>
+  </functions>
+</book>

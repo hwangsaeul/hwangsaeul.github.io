@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GaeguliPipeline: Gaeguli API reference</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="Gaeguli API reference">
+<link rel="up" href="Broker%20APIs.html" title="Gaeguli APIs">
+<link rel="prev" href="gaeguli-GaeguliFifoTransmit.html" title="GaeguliFifoTransmit">
+<link rel="next" href="gaeguli-config.html" title="config">
+<meta name="generator" content="GTK-Doc V1.28 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#gaeguli-GaeguliPipeline.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="Broker%20APIs.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="gaeguli-GaeguliFifoTransmit.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="gaeguli-config.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="gaeguli-GaeguliPipeline"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gaeguli-GaeguliPipeline.top_of_page"></a>GaeguliPipeline</span></h2>
+<p>GaeguliPipeline — Object to read video and send it to fifo</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="gaeguli-GaeguliPipeline.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="returnvalue">GaeguliPipeline</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-new" title="gaeguli_pipeline_new ()">gaeguli_pipeline_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="returnvalue">GaeguliPipeline</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-new-full" title="gaeguli_pipeline_new_full ()">gaeguli_pipeline_new_full</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">guint</span>
+</td>
+<td class="function_name">
+<a class="link" href="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-add-fifo-target" title="gaeguli_pipeline_add_fifo_target ()">gaeguli_pipeline_add_fifo_target</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">guint</span>
+</td>
+<td class="function_name">
+<a class="link" href="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-add-fifo-target-full" title="gaeguli_pipeline_add_fifo_target_full ()">gaeguli_pipeline_add_fifo_target_full</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="gaeguli-Gaeguli-Types.html#GaeguliReturn" title="enum GaeguliReturn"><span class="returnvalue">GaeguliReturn</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-remove-target" title="gaeguli_pipeline_remove_target ()">gaeguli_pipeline_remove_target</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-stop" title="gaeguli_pipeline_stop ()">gaeguli_pipeline_stop</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-dump-to-dot-file" title="gaeguli_pipeline_dump_to_dot_file ()">gaeguli_pipeline_dump_to_dot_file</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="gaeguli-GaeguliPipeline.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gaeguli-GaeguliPipeline.html#GAEGULI-TYPE-PIPELINE:CAPS" title="GAEGULI_TYPE_PIPELINE">GAEGULI_TYPE_PIPELINE</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline">GaeguliPipeline</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="gaeguli-GaeguliPipeline.description"></a><h2>Description</h2>
+<p>A <a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> is an object capable of receive video from different type of sources and send it to a fifo for further processing.</p>
+</div>
+<div class="refsect1">
+<a name="gaeguli-GaeguliPipeline.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="gaeguli-pipeline-new"></a><h3>gaeguli_pipeline_new ()</h3>
+<pre class="programlisting"><a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="returnvalue">GaeguliPipeline</span></a> *
+gaeguli_pipeline_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Creates a new <a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> object</p>
+<div class="refsect3">
+<a name="gaeguli-pipeline-new.returns"></a><h4>Returns</h4>
+<p> the newly created object</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gaeguli-pipeline-new-full"></a><h3>gaeguli_pipeline_new_full ()</h3>
+<pre class="programlisting"><a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="returnvalue">GaeguliPipeline</span></a> *
+gaeguli_pipeline_new_full (<em class="parameter"><code><a class="link" href="gaeguli-Gaeguli-Types.html#GaeguliVideoSource" title="enum GaeguliVideoSource"><span class="type">GaeguliVideoSource</span></a> source</code></em>,
+                           <em class="parameter"><code>const <span class="type">gchar</span> *device</code></em>,
+                           <em class="parameter"><code><a class="link" href="gaeguli-Gaeguli-Types.html#GaeguliEncodingMethod" title="enum GaeguliEncodingMethod"><span class="type">GaeguliEncodingMethod</span></a> encoding_method</code></em>);</pre>
+<p>Creates a new <a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> object using specific parameters.</p>
+<div class="refsect3">
+<a name="gaeguli-pipeline-new-full.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>source</p></td>
+<td class="parameter_description"><p>the source of the video</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>device</p></td>
+<td class="parameter_description"><p>the device used as source in case of V4L</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>encoding_method</p></td>
+<td class="parameter_description"><p>the codec use for encoding</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gaeguli-pipeline-new-full.returns"></a><h4>Returns</h4>
+<p> the newly created object</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gaeguli-pipeline-add-fifo-target"></a><h3>gaeguli_pipeline_add_fifo_target ()</h3>
+<pre class="programlisting"><span class="returnvalue">guint</span>
+gaeguli_pipeline_add_fifo_target (<em class="parameter"><code><a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> *self</code></em>,
+                                  <em class="parameter"><code>const <span class="type">gchar</span> *fifo_path</code></em>,
+                                  <em class="parameter"><code><span class="type">GError</span> **error</code></em>);</pre>
+<p>Adds a fifo target to the pipeline.</p>
+<div class="refsect3">
+<a name="gaeguli-pipeline-add-fifo-target.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>fifo_path</p></td>
+<td class="parameter_description"><p>path to fifo file</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>a <span class="type">GError</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gaeguli-pipeline-add-fifo-target.returns"></a><h4>Returns</h4>
+<p> an identifier for the fifo connection known as target_id</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gaeguli-pipeline-add-fifo-target-full"></a><h3>gaeguli_pipeline_add_fifo_target_full ()</h3>
+<pre class="programlisting"><span class="returnvalue">guint</span>
+gaeguli_pipeline_add_fifo_target_full (<em class="parameter"><code><a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> *self</code></em>,
+                                       <em class="parameter"><code><a class="link" href="gaeguli-Gaeguli-Types.html#GaeguliVideoCodec" title="enum GaeguliVideoCodec"><span class="type">GaeguliVideoCodec</span></a> codec</code></em>,
+                                       <em class="parameter"><code><a class="link" href="gaeguli-Gaeguli-Types.html#GaeguliVideoResolution" title="enum GaeguliVideoResolution"><span class="type">GaeguliVideoResolution</span></a> resolution</code></em>,
+                                       <em class="parameter"><code><span class="type">guint</span> framerate</code></em>,
+                                       <em class="parameter"><code><span class="type">guint</span> bitrate</code></em>,
+                                       <em class="parameter"><code>const <span class="type">gchar</span> *fifo_path</code></em>,
+                                       <em class="parameter"><code><span class="type">GError</span> **error</code></em>);</pre>
+<p>Adds a fifo target to the pipeline using specific parameters.</p>
+<div class="refsect3">
+<a name="gaeguli-pipeline-add-fifo-target-full.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>codec</p></td>
+<td class="parameter_description"><p>codec to use for streaming</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>resolution</p></td>
+<td class="parameter_description"><p>resolution to use for streaming</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>framerate</p></td>
+<td class="parameter_description"><p>framerate to use for streaming</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>bitrate</p></td>
+<td class="parameter_description"><p>bitrate use for streaming</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>fifo_path</p></td>
+<td class="parameter_description"><p>path to fifo file</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>a <span class="type">GError</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gaeguli-pipeline-add-fifo-target-full.returns"></a><h4>Returns</h4>
+<p> an identifier for the fifo connection known as target_id</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gaeguli-pipeline-remove-target"></a><h3>gaeguli_pipeline_remove_target ()</h3>
+<pre class="programlisting"><a class="link" href="gaeguli-Gaeguli-Types.html#GaeguliReturn" title="enum GaeguliReturn"><span class="returnvalue">GaeguliReturn</span></a>
+gaeguli_pipeline_remove_target (<em class="parameter"><code><a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> *self</code></em>,
+                                <em class="parameter"><code><span class="type">guint</span> target_id</code></em>,
+                                <em class="parameter"><code><span class="type">GError</span> **error</code></em>);</pre>
+<p>Removes a specific fifo target.</p>
+<div class="refsect3">
+<a name="gaeguli-pipeline-remove-target.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>target_id</p></td>
+<td class="parameter_description"><p>identifier as returned by <a class="link" href="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-add-fifo-target" title="gaeguli_pipeline_add_fifo_target ()"><span class="type">gaeguli_pipeline_add_fifo_target</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>a <span class="type">GError</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="gaeguli-pipeline-remove-target.returns"></a><h4>Returns</h4>
+<p> an <a class="link" href="gaeguli-Gaeguli-Types.html#GaeguliReturn" title="enum GaeguliReturn"><span class="type">GaeguliReturn</span></a></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gaeguli-pipeline-stop"></a><h3>gaeguli_pipeline_stop ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gaeguli_pipeline_stop (<em class="parameter"><code><a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> *self</code></em>);</pre>
+<p>Stops the pipeline.</p>
+<div class="refsect3">
+<a name="gaeguli-pipeline-stop.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gaeguli-pipeline-dump-to-dot-file"></a><h3>gaeguli_pipeline_dump_to_dot_file ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gaeguli_pipeline_dump_to_dot_file (<em class="parameter"><code><a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> *self</code></em>);</pre>
+<p>Dumps debug info to file.</p>
+<div class="refsect3">
+<a name="gaeguli-pipeline-dump-to-dot-file.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="gaeguli-GaeguliPipeline.html#GaeguliPipeline" title="GaeguliPipeline"><span class="type">GaeguliPipeline</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="gaeguli-GaeguliPipeline.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GAEGULI-TYPE-PIPELINE:CAPS"></a><h3>GAEGULI_TYPE_PIPELINE</h3>
+<pre class="programlisting">#define GAEGULI_TYPE_PIPELINE   (gaeguli_pipeline_get_type ())
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GaeguliPipeline"></a><h3>GaeguliPipeline</h3>
+<pre class="programlisting">typedef struct _GaeguliPipeline GaeguliPipeline;</pre>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.28</div>
+</body>
+</html>

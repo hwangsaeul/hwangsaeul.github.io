@@ -30,6 +30,13 @@ The ecosystem consists of a distributed system that allows clients to access Edg
 
 *   [Hwangsae](https://github.com/hwangsaeul/hwangsae/blob/master/README.md): Relay and Recorder servers
 
+## Libraries APIs
+*   [Chamge](doc/chamge/index.html): Control channel for the SRT environmet
+
+*   [Gaeguli](doc/gaeguli/index.html): SRT streaming library generator
+
+*   [Hwangsae](doc/hwangsae/index.html): Relay and Recorder servers
+
 ## Description
 To allow N different clients to access the streaming genearted by an Edge device, this project implements a distributed system.
 

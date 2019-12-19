@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<book xmlns="http://www.devhelp.net/book" title="Chamge API reference" link="index.html" author="" name="chamge" version="2" language="c">
+  <chapters>
+    <sub name="Broker APIs" link="Broker APIs.html">
+      <sub name="Chamge Types" link="chamge-Chamge-Types.html"/>
+      <sub name="ChamgeNode" link="ChamgeNode.html"/>
+      <sub name="ChamgeArbiter" link="ChamgeArbiter.html"/>
+      <sub name="ChamgeHub" link="ChamgeHub.html"/>
+      <sub name="ChamgeEdge" link="ChamgeEdge.html"/>
+      <sub name="config" link="chamge-config.html"/>
+    </sub>
+    <sub name="D-Bus related functions" link="D-Bus related functions.html">
+      <sub name="ChamgeDBusEdgeManagerSkeleton" link="chamge-ChamgeDBusEdgeManagerSkeleton.html"/>
+      <sub name="ChamgeDBusArbiterManagerSkeleton" link="chamge-ChamgeDBusArbiterManagerSkeleton.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <keyword type="function" name="chamge_dbus_error_quark ()" link="chamge-Chamge-Types.html#chamge-dbus-error-quark"/>
+    <keyword type="macro" name="CHAMGE_DBUS_ERROR" link="chamge-Chamge-Types.html#CHAMGE-DBUS-ERROR:CAPS"/>
+    <keyword type="enum" name="enum ChamgaeDBusError" link="chamge-Chamge-Types.html#ChamgaeDBusError"/>
+    <keyword type="function" name="chamge_node_enroll ()" link="ChamgeNode.html#chamge-node-enroll"/>
+    <keyword type="function" name="chamge_node_delist ()" link="ChamgeNode.html#chamge-node-delist"/>
+    <keyword type="function" name="chamge_node_activate ()" link="ChamgeNode.html#chamge-node-activate"/>
+    <keyword type="function" name="chamge_node_deactivate ()" link="ChamgeNode.html#chamge-node-deactivate"/>
+    <keyword type="function" name="chamge_node_get_uid ()" link="ChamgeNode.html#chamge-node-get-uid"/>
+    <keyword type="function" name="chamge_node_user_command ()" link="ChamgeNode.html#chamge-node-user-command"/>
+    <keyword type="macro" name="CHAMGE_TYPE_NODE" link="ChamgeNode.html#CHAMGE-TYPE-NODE:CAPS"/>
+    <keyword type="enum" name="enum ChamgeNodeState" link="ChamgeNode.html#ChamgeNodeState"/>
+    <keyword type="struct" name="struct ChamgeNodeClass" link="ChamgeNode.html#ChamgeNodeClass"/>
+    <keyword type="struct" name="ChamgeNode" link="ChamgeNode.html#ChamgeNode-struct"/>
+    <keyword type="property" name="The “state” property" link="ChamgeNode.html#ChamgeNode--state"/>
+    <keyword type="property" name="The “uid” property" link="ChamgeNode.html#ChamgeNode--uid"/>
+    <keyword type="signal" name="The “state-changed” signal" link="ChamgeNode.html#ChamgeNode-state-changed"/>
+    <keyword type="function" name="chamge_arbiter_new ()" link="ChamgeArbiter.html#chamge-arbiter-new"/>
+    <keyword type="function" name="chamge_arbiter_new_full ()" link="ChamgeArbiter.html#chamge-arbiter-new-full"/>
+    <keyword type="macro" name="CHAMGE_TYPE_ARBITER" link="ChamgeArbiter.html#CHAMGE-TYPE-ARBITER:CAPS"/>
+    <keyword type="struct" name="struct ChamgeArbiterClass" link="ChamgeArbiter.html#ChamgeArbiterClass"/>
+    <keyword type="struct" name="ChamgeArbiter" link="ChamgeArbiter.html#ChamgeArbiter-struct"/>
+    <keyword type="property" name="The “backend” property" link="ChamgeArbiter.html#ChamgeArbiter--backend"/>
+    <keyword type="signal" name="The “edge-delisted” signal" link="ChamgeArbiter.html#ChamgeArbiter-edge-delisted"/>
+    <keyword type="signal" name="The “edge-enrolled” signal" link="ChamgeArbiter.html#ChamgeArbiter-edge-enrolled"/>
+    <keyword type="signal" name="The “hub-delisted” signal" link="ChamgeArbiter.html#ChamgeArbiter-hub-delisted"/>
+    <keyword type="signal" name="The “hub-enrolled” signal" link="ChamgeArbiter.html#ChamgeArbiter-hub-enrolled"/>
+    <keyword type="function" name="chamge_hub_new ()" link="ChamgeHub.html#chamge-hub-new"/>
+    <keyword type="function" name="chamge_hub_new_full ()" link="ChamgeHub.html#chamge-hub-new-full"/>
+    <keyword type="function" name="chamge_hub_get_uid ()" link="ChamgeHub.html#chamge-hub-get-uid"/>
+    <keyword type="macro" name="CHAMGE_TYPE_HUB" link="ChamgeHub.html#CHAMGE-TYPE-HUB:CAPS"/>
+    <keyword type="struct" name="struct ChamgeHubClass" link="ChamgeHub.html#ChamgeHubClass"/>
+    <keyword type="struct" name="ChamgeHub" link="ChamgeHub.html#ChamgeHub-struct"/>
+    <keyword type="property" name="The “backend” property" link="ChamgeHub.html#ChamgeHub--backend"/>
+    <keyword type="signal" name="The “user-command” signal" link="ChamgeHub.html#ChamgeHub-user-command"/>
+    <keyword type="function" name="chamge_edge_new ()" link="ChamgeEdge.html#chamge-edge-new"/>
+    <keyword type="function" name="chamge_edge_new_full ()" link="ChamgeEdge.html#chamge-edge-new-full"/>
+    <keyword type="function" name="chamge_edge_request_target_uri ()" link="ChamgeEdge.html#chamge-edge-request-target-uri"/>
+    <keyword type="macro" name="CHAMGE_TYPE_EDGE" link="ChamgeEdge.html#CHAMGE-TYPE-EDGE:CAPS"/>
+    <keyword type="struct" name="struct ChamgeEdgeClass" link="ChamgeEdge.html#ChamgeEdgeClass"/>
+    <keyword type="struct" name="ChamgeEdge" link="ChamgeEdge.html#ChamgeEdge-struct"/>
+    <keyword type="property" name="The “backend” property" link="ChamgeEdge.html#ChamgeEdge--backend"/>
+    <keyword type="signal" name="The “user-command” signal" link="ChamgeEdge.html#ChamgeEdge-user-command"/>
+    <keyword type="macro" name="LIBDIR" link="chamge-config.html#LIBDIR:CAPS"/>
+    <keyword type="macro" name="PACKAGE" link="chamge-config.html#PACKAGE:CAPS"/>
+    <keyword type="macro" name="PACKAGE_NAME" link="chamge-config.html#PACKAGE-NAME:CAPS"/>
+    <keyword type="macro" name="PACKAGE_STRING" link="chamge-config.html#PACKAGE-STRING:CAPS"/>
+    <keyword type="macro" name="VERSION" link="chamge-config.html#VERSION:CAPS"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_interface_info ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-interface-info"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_override_properties ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-override-properties"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_complete_enroll ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-complete-enroll"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_complete_delist ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-complete-delist"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_complete_activate ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-complete-activate"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_complete_deactivate ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-complete-deactivate"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_complete_request_srtconnection_uri ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-complete-request-srtconnection-uri"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_enroll ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-enroll"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_enroll_finish ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-enroll-finish"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_enroll_sync ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-enroll-sync"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_delist ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-delist"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_delist_finish ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-delist-finish"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_delist_sync ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-delist-sync"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_activate ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-activate"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_activate_finish ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-activate-finish"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_activate_sync ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-activate-sync"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_deactivate ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-deactivate"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_deactivate_finish ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-deactivate-finish"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_deactivate_sync ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-deactivate-sync"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_request_srtconnection_uri ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-request-srtconnection-uri"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_request_srtconnection_uri_finish ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-request-srtconnection-uri-finish"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_call_request_srtconnection_uri_sync ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-call-request-srtconnection-uri-sync"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_get_state ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-get-state"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_set_state ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-set-state"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_proxy_new ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-proxy-new"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_proxy_new_finish ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-proxy-new-finish"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_proxy_new_sync ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-proxy-new-sync"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_proxy_new_for_bus ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-proxy-new-for-bus"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_proxy_new_for_bus_finish ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-proxy-new-for-bus-finish"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_proxy_new_for_bus_sync ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-proxy-new-for-bus-sync"/>
+    <keyword type="function" name="chamge_dbus_edge_manager_skeleton_new ()" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#chamge-dbus-edge-manager-skeleton-new"/>
+    <keyword type="struct" name="struct ChamgeDBusEdgeManagerIface" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerIface"/>
+    <keyword type="struct" name="struct ChamgeDBusEdgeManagerProxy" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerProxy"/>
+    <keyword type="struct" name="struct ChamgeDBusEdgeManagerProxyClass" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerProxyClass"/>
+    <keyword type="struct" name="struct ChamgeDBusEdgeManagerSkeleton" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerSkeleton"/>
+    <keyword type="struct" name="struct ChamgeDBusEdgeManagerSkeletonClass" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerSkeletonClass"/>
+    <keyword type="struct" name="ChamgeDBusEdgeManager" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManager"/>
+    <keyword type="struct" name="ChamgeDBusEdgeManagerProxyPrivate" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerProxyPrivate"/>
+    <keyword type="struct" name="ChamgeDBusEdgeManagerSkeletonPrivate" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerSkeletonPrivate"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_interface_info ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-interface-info"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_override_properties ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-override-properties"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_complete_enroll ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-complete-enroll"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_complete_delist ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-complete-delist"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_complete_activate ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-complete-activate"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_complete_deactivate ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-complete-deactivate"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_complete_user_command ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-complete-user-command"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_enroll ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-enroll"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_enroll_finish ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-enroll-finish"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_enroll_sync ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-enroll-sync"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_delist ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-delist"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_delist_finish ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-delist-finish"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_delist_sync ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-delist-sync"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_activate ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-activate"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_activate_finish ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-activate-finish"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_activate_sync ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-activate-sync"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_deactivate ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-deactivate"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_deactivate_finish ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-deactivate-finish"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_deactivate_sync ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-deactivate-sync"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_user_command ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-user-command"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_user_command_finish ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-user-command-finish"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_call_user_command_sync ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-call-user-command-sync"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_get_state ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-get-state"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_set_state ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-set-state"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_proxy_new ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-proxy-new"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_proxy_new_finish ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-proxy-new-finish"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_proxy_new_sync ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-proxy-new-sync"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_proxy_new_for_bus ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-proxy-new-for-bus"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_proxy_new_for_bus_finish ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-proxy-new-for-bus-finish"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_proxy_new_for_bus_sync ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-proxy-new-for-bus-sync"/>
+    <keyword type="function" name="chamge_dbus_arbiter_manager_skeleton_new ()" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#chamge-dbus-arbiter-manager-skeleton-new"/>
+    <keyword type="struct" name="struct ChamgeDBusArbiterManagerIface" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerIface"/>
+    <keyword type="struct" name="struct ChamgeDBusArbiterManagerProxy" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerProxy"/>
+    <keyword type="struct" name="struct ChamgeDBusArbiterManagerProxyClass" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerProxyClass"/>
+    <keyword type="struct" name="struct ChamgeDBusArbiterManagerSkeleton" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerSkeleton"/>
+    <keyword type="struct" name="struct ChamgeDBusArbiterManagerSkeletonClass" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerSkeletonClass"/>
+    <keyword type="struct" name="ChamgeDBusArbiterManager" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManager"/>
+    <keyword type="struct" name="ChamgeDBusArbiterManagerProxyPrivate" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerProxyPrivate"/>
+    <keyword type="struct" name="ChamgeDBusArbiterManagerSkeletonPrivate" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerSkeletonPrivate"/>
+    <keyword type="constant" name="CHAMGE_DBUS_ERROR_RESOURCE_NOT_FOUND" link="chamge-Chamge-Types.html#CHAMGE-DBUS-ERROR-RESOURCE-NOT-FOUND:CAPS"/>
+    <keyword type="constant" name="CHAMGE_DBUS_ERROR_WRONG_PARAMETER" link="chamge-Chamge-Types.html#CHAMGE-DBUS-ERROR-WRONG-PARAMETER:CAPS"/>
+    <keyword type="constant" name="CHAMGE_DBUS_ERROR_NOT_IMPLEMENTED" link="chamge-Chamge-Types.html#CHAMGE-DBUS-ERROR-NOT-IMPLEMENTED:CAPS"/>
+    <keyword type="constant" name="CHAMGE_NODE_STATE_NULL" link="ChamgeNode.html#CHAMGE-NODE-STATE-NULL:CAPS"/>
+    <keyword type="constant" name="CHAMGE_NODE_STATE_ENROLLED" link="ChamgeNode.html#CHAMGE-NODE-STATE-ENROLLED:CAPS"/>
+    <keyword type="constant" name="CHAMGE_NODE_STATE_ACTIVATED" link="ChamgeNode.html#CHAMGE-NODE-STATE-ACTIVATED:CAPS"/>
+    <keyword type="member" name="ChamgeDBusEdgeManagerIface.parent-iface" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerIface.parent-iface"/>
+    <keyword type="member" name="ChamgeDBusEdgeManagerIface.handle-activate" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerIface.handle-activate"/>
+    <keyword type="member" name="ChamgeDBusEdgeManagerIface.handle-deactivate" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerIface.handle-deactivate"/>
+    <keyword type="member" name="ChamgeDBusEdgeManagerIface.handle-delist" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerIface.handle-delist"/>
+    <keyword type="member" name="ChamgeDBusEdgeManagerIface.handle-enroll" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerIface.handle-enroll"/>
+    <keyword type="member" name="ChamgeDBusEdgeManagerIface.handle-request-srtconnection-uri" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerIface.handle-request-srtconnection-uri"/>
+    <keyword type="member" name="ChamgeDBusEdgeManagerIface.get-state" link="chamge-ChamgeDBusEdgeManagerSkeleton.html#ChamgeDBusEdgeManagerIface.get-state"/>
+    <keyword type="member" name="ChamgeDBusArbiterManagerIface.parent-iface" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerIface.parent-iface"/>
+    <keyword type="member" name="ChamgeDBusArbiterManagerIface.handle-activate" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerIface.handle-activate"/>
+    <keyword type="member" name="ChamgeDBusArbiterManagerIface.handle-deactivate" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerIface.handle-deactivate"/>
+    <keyword type="member" name="ChamgeDBusArbiterManagerIface.handle-delist" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerIface.handle-delist"/>
+    <keyword type="member" name="ChamgeDBusArbiterManagerIface.handle-enroll" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerIface.handle-enroll"/>
+    <keyword type="member" name="ChamgeDBusArbiterManagerIface.handle-user-command" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerIface.handle-user-command"/>
+    <keyword type="member" name="ChamgeDBusArbiterManagerIface.get-state" link="chamge-ChamgeDBusArbiterManagerSkeleton.html#ChamgeDBusArbiterManagerIface.get-state"/>
+  </functions>
+</book>

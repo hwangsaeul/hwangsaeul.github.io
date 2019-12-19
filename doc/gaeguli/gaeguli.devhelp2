@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<book xmlns="http://www.devhelp.net/book" title="Gaeguli API reference" link="index.html" author="" name="gaeguli" version="2" language="c">
+  <chapters>
+    <sub name="Gaeguli APIs" link="Broker APIs.html">
+      <sub name="Gaeguli Types" link="gaeguli-Gaeguli-Types.html"/>
+      <sub name="GaeguliFifoTransmit" link="gaeguli-GaeguliFifoTransmit.html"/>
+      <sub name="GaeguliPipeline" link="gaeguli-GaeguliPipeline.html"/>
+      <sub name="config" link="gaeguli-config.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <keyword type="function" name="gaeguli_resource_error_quark ()" link="gaeguli-Gaeguli-Types.html#gaeguli-resource-error-quark"/>
+    <keyword type="function" name="gaeguli_transmit_error_quark ()" link="gaeguli-Gaeguli-Types.html#gaeguli-transmit-error-quark"/>
+    <keyword type="macro" name="GAEGULI_API_EXPORT" link="gaeguli-Gaeguli-Types.html#GAEGULI-API-EXPORT:CAPS"/>
+    <keyword type="enum" name="enum GaeguliReturn" link="gaeguli-Gaeguli-Types.html#GaeguliReturn"/>
+    <keyword type="enum" name="enum GaeguliSRTMode" link="gaeguli-Gaeguli-Types.html#GaeguliSRTMode"/>
+    <keyword type="enum" name="enum GaeguliVideoSource" link="gaeguli-Gaeguli-Types.html#GaeguliVideoSource"/>
+    <keyword type="enum" name="enum GaeguliVideoCodec" link="gaeguli-Gaeguli-Types.html#GaeguliVideoCodec"/>
+    <keyword type="enum" name="enum GaeguliVideoResolution" link="gaeguli-Gaeguli-Types.html#GaeguliVideoResolution"/>
+    <keyword type="enum" name="enum GaeguliEncodingMethod" link="gaeguli-Gaeguli-Types.html#GaeguliEncodingMethod"/>
+    <keyword type="macro" name="GAEGULI_RESOURCE_ERROR" link="gaeguli-Gaeguli-Types.html#GAEGULI-RESOURCE-ERROR:CAPS"/>
+    <keyword type="enum" name="enum GaeguliResourceError" link="gaeguli-Gaeguli-Types.html#GaeguliResourceError"/>
+    <keyword type="macro" name="GAEGULI_TRANSMIT_ERROR" link="gaeguli-Gaeguli-Types.html#GAEGULI-TRANSMIT-ERROR:CAPS"/>
+    <keyword type="enum" name="enum GaeguliTransmitError" link="gaeguli-Gaeguli-Types.html#GaeguliTransmitError"/>
+    <keyword type="function" name="gaeguli_fifo_transmit_new ()" link="gaeguli-GaeguliFifoTransmit.html#gaeguli-fifo-transmit-new"/>
+    <keyword type="function" name="gaeguli_fifo_transmit_new_full ()" link="gaeguli-GaeguliFifoTransmit.html#gaeguli-fifo-transmit-new-full"/>
+    <keyword type="function" name="gaeguli_fifo_transmit_get_fifo ()" link="gaeguli-GaeguliFifoTransmit.html#gaeguli-fifo-transmit-get-fifo"/>
+    <keyword type="function" name="gaeguli_fifo_transmit_get_read_status ()" link="gaeguli-GaeguliFifoTransmit.html#gaeguli-fifo-transmit-get-read-status"/>
+    <keyword type="function" name="gaeguli_fifo_transmit_get_available_bytes ()" link="gaeguli-GaeguliFifoTransmit.html#gaeguli-fifo-transmit-get-available-bytes"/>
+    <keyword type="function" name="gaeguli_fifo_transmit_get_stats ()" link="gaeguli-GaeguliFifoTransmit.html#gaeguli-fifo-transmit-get-stats"/>
+    <keyword type="function" name="gaeguli_fifo_transmit_start ()" link="gaeguli-GaeguliFifoTransmit.html#gaeguli-fifo-transmit-start"/>
+    <keyword type="function" name="gaeguli_fifo_transmit_start_full ()" link="gaeguli-GaeguliFifoTransmit.html#gaeguli-fifo-transmit-start-full"/>
+    <keyword type="function" name="gaeguli_fifo_transmit_stop ()" link="gaeguli-GaeguliFifoTransmit.html#gaeguli-fifo-transmit-stop"/>
+    <keyword type="macro" name="GAEGULI_TYPE_FIFO_TRANSMIT" link="gaeguli-GaeguliFifoTransmit.html#GAEGULI-TYPE-FIFO-TRANSMIT:CAPS"/>
+    <keyword type="struct" name="GaeguliFifoTransmit" link="gaeguli-GaeguliFifoTransmit.html#GaeguliFifoTransmit"/>
+    <keyword type="function" name="gaeguli_pipeline_new ()" link="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-new"/>
+    <keyword type="function" name="gaeguli_pipeline_new_full ()" link="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-new-full"/>
+    <keyword type="function" name="gaeguli_pipeline_add_fifo_target ()" link="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-add-fifo-target"/>
+    <keyword type="function" name="gaeguli_pipeline_add_fifo_target_full ()" link="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-add-fifo-target-full"/>
+    <keyword type="function" name="gaeguli_pipeline_remove_target ()" link="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-remove-target"/>
+    <keyword type="function" name="gaeguli_pipeline_stop ()" link="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-stop"/>
+    <keyword type="function" name="gaeguli_pipeline_dump_to_dot_file ()" link="gaeguli-GaeguliPipeline.html#gaeguli-pipeline-dump-to-dot-file"/>
+    <keyword type="macro" name="GAEGULI_TYPE_PIPELINE" link="gaeguli-GaeguliPipeline.html#GAEGULI-TYPE-PIPELINE:CAPS"/>
+    <keyword type="struct" name="GaeguliPipeline" link="gaeguli-GaeguliPipeline.html#GaeguliPipeline"/>
+    <keyword type="macro" name="DEFAULT_ENCODING_METHOD" link="gaeguli-config.html#DEFAULT-ENCODING-METHOD:CAPS"/>
+    <keyword type="macro" name="DEFAULT_VIDEO_BITRATE" link="gaeguli-config.html#DEFAULT-VIDEO-BITRATE:CAPS"/>
+    <keyword type="macro" name="DEFAULT_VIDEO_CODEC" link="gaeguli-config.html#DEFAULT-VIDEO-CODEC:CAPS"/>
+    <keyword type="macro" name="DEFAULT_VIDEO_FRAMERATE" link="gaeguli-config.html#DEFAULT-VIDEO-FRAMERATE:CAPS"/>
+    <keyword type="macro" name="DEFAULT_VIDEO_RESOLUTION" link="gaeguli-config.html#DEFAULT-VIDEO-RESOLUTION:CAPS"/>
+    <keyword type="macro" name="DEFAULT_VIDEO_SOURCE" link="gaeguli-config.html#DEFAULT-VIDEO-SOURCE:CAPS"/>
+    <keyword type="macro" name="DEFAULT_VIDEO_SOURCE_DEVICE" link="gaeguli-config.html#DEFAULT-VIDEO-SOURCE-DEVICE:CAPS"/>
+    <keyword type="macro" name="LIBDIR" link="gaeguli-config.html#LIBDIR:CAPS"/>
+    <keyword type="macro" name="PACKAGE" link="gaeguli-config.html#PACKAGE:CAPS"/>
+    <keyword type="macro" name="PACKAGE_NAME" link="gaeguli-config.html#PACKAGE-NAME:CAPS"/>
+    <keyword type="macro" name="PACKAGE_STRING" link="gaeguli-config.html#PACKAGE-STRING:CAPS"/>
+    <keyword type="macro" name="VERSION" link="gaeguli-config.html#VERSION:CAPS"/>
+    <keyword type="constant" name="GAEGULI_RETURN_FAIL" link="gaeguli-Gaeguli-Types.html#GAEGULI-RETURN-FAIL:CAPS"/>
+    <keyword type="constant" name="GAEGULI_RETURN_OK" link="gaeguli-Gaeguli-Types.html#GAEGULI-RETURN-OK:CAPS"/>
+    <keyword type="constant" name="GAEGULI_SRT_MODE_UNKNOWN" link="gaeguli-Gaeguli-Types.html#GAEGULI-SRT-MODE-UNKNOWN:CAPS"/>
+    <keyword type="constant" name="GAEGULI_SRT_MODE_CALLER" link="gaeguli-Gaeguli-Types.html#GAEGULI-SRT-MODE-CALLER:CAPS"/>
+    <keyword type="constant" name="GAEGULI_SRT_MODE_LISTENER" link="gaeguli-Gaeguli-Types.html#GAEGULI-SRT-MODE-LISTENER:CAPS"/>
+    <keyword type="constant" name="GAEGULI_SRT_MODE_RENDEZVOUS" link="gaeguli-Gaeguli-Types.html#GAEGULI-SRT-MODE-RENDEZVOUS:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_SOURCE_UNKNOWN" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-SOURCE-UNKNOWN:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_SOURCE_V4L2SRC" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-SOURCE-V4L2SRC:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_SOURCE_AVFVIDEOSRC" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-SOURCE-AVFVIDEOSRC:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_SOURCE_VIDEOTESTSRC" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-SOURCE-VIDEOTESTSRC:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_CODEC_UNKNOWN" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-CODEC-UNKNOWN:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_CODEC_H264" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-CODEC-H264:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_CODEC_H265" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-CODEC-H265:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_RESOLUTION_UNKNOWN" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-RESOLUTION-UNKNOWN:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_RESOLUTION_640X480" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-RESOLUTION-640X480:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_RESOLUTION_1280X720" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-RESOLUTION-1280X720:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_RESOLUTION_1920X1080" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-RESOLUTION-1920X1080:CAPS"/>
+    <keyword type="constant" name="GAEGULI_VIDEO_RESOLUTION_3840X2160" link="gaeguli-Gaeguli-Types.html#GAEGULI-VIDEO-RESOLUTION-3840X2160:CAPS"/>
+    <keyword type="constant" name="GAEGULI_ENCODING_METHOD_GENERAL" link="gaeguli-Gaeguli-Types.html#GAEGULI-ENCODING-METHOD-GENERAL:CAPS"/>
+    <keyword type="constant" name="GAEGULI_ENCODING_METHOD_NVIDIA_TX1" link="gaeguli-Gaeguli-Types.html#GAEGULI-ENCODING-METHOD-NVIDIA-TX1:CAPS"/>
+    <keyword type="constant" name="GAEGULI_RESOURCE_ERROR_UNSUPPORTED" link="gaeguli-Gaeguli-Types.html#GAEGULI-RESOURCE-ERROR-UNSUPPORTED:CAPS"/>
+    <keyword type="constant" name="GAEGULI_RESOURCE_ERROR_READ" link="gaeguli-Gaeguli-Types.html#GAEGULI-RESOURCE-ERROR-READ:CAPS"/>
+    <keyword type="constant" name="GAEGULI_RESOURCE_ERROR_WRITE" link="gaeguli-Gaeguli-Types.html#GAEGULI-RESOURCE-ERROR-WRITE:CAPS"/>
+    <keyword type="constant" name="GAEGULI_RESOURCE_ERROR_RW" link="gaeguli-Gaeguli-Types.html#GAEGULI-RESOURCE-ERROR-RW:CAPS"/>
+    <keyword type="constant" name="GAEGULI_TRANSMIT_ERROR_FAILED" link="gaeguli-Gaeguli-Types.html#GAEGULI-TRANSMIT-ERROR-FAILED:CAPS"/>
+    <keyword type="constant" name="GAEGULI_TRANSMIT_ERROR_ADDRINUSE" link="gaeguli-Gaeguli-Types.html#GAEGULI-TRANSMIT-ERROR-ADDRINUSE:CAPS"/>
+  </functions>
+</book>

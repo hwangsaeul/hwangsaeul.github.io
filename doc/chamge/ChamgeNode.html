@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ChamgeNode: Chamge API reference</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="Chamge API reference">
+<link rel="up" href="Broker%20APIs.html" title="Broker APIs">
+<link rel="prev" href="chamge-Chamge-Types.html" title="Chamge Types">
+<link rel="next" href="ChamgeArbiter.html" title="ChamgeArbiter">
+<meta name="generator" content="GTK-Doc V1.28 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#ChamgeNode.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#ChamgeNode.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#ChamgeNode.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#ChamgeNode.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="Broker%20APIs.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="chamge-Chamge-Types.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ChamgeArbiter.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="ChamgeNode"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ChamgeNode.top_of_page"></a>ChamgeNode</span></h2>
+<p>ChamgeNode — Base object to buid different types of Chamge brokers</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="ChamgeNode.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ChamgeReturn</span>
+</td>
+<td class="function_name">
+<a class="link" href="ChamgeNode.html#chamge-node-enroll" title="chamge_node_enroll ()">chamge_node_enroll</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ChamgeReturn</span>
+</td>
+<td class="function_name">
+<a class="link" href="ChamgeNode.html#chamge-node-delist" title="chamge_node_delist ()">chamge_node_delist</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ChamgeReturn</span>
+</td>
+<td class="function_name">
+<a class="link" href="ChamgeNode.html#chamge-node-activate" title="chamge_node_activate ()">chamge_node_activate</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ChamgeReturn</span>
+</td>
+<td class="function_name">
+<a class="link" href="ChamgeNode.html#chamge-node-deactivate" title="chamge_node_deactivate ()">chamge_node_deactivate</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ChamgeReturn</span>
+</td>
+<td class="function_name">
+<a class="link" href="ChamgeNode.html#chamge-node-get-uid" title="chamge_node_get_uid ()">chamge_node_get_uid</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ChamgeReturn</span>
+</td>
+<td class="function_name">
+<a class="link" href="ChamgeNode.html#chamge-node-user-command" title="chamge_node_user_command ()">chamge_node_user_command</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ChamgeNode.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><a class="link" href="ChamgeNode.html#ChamgeNodeState" title="enum ChamgeNodeState"><span class="type">ChamgeNodeState</span></a></td>
+<td class="property_name"><a class="link" href="ChamgeNode.html#ChamgeNode--state" title="The “state” property">state</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="ChamgeNode.html#ChamgeNode--uid" title="The “uid” property">uid</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ChamgeNode.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody><tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ChamgeNode.html#ChamgeNode-state-changed" title="The “state-changed” signal">state-changed</a></td>
+<td class="signal_flags">Run Last</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ChamgeNode.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="ChamgeNode.html#CHAMGE-TYPE-NODE:CAPS" title="CHAMGE_TYPE_NODE">CHAMGE_TYPE_NODE</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="ChamgeNode.html#ChamgeNodeState" title="enum ChamgeNodeState">ChamgeNodeState</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="ChamgeNode.html#ChamgeNodeClass" title="struct ChamgeNodeClass">ChamgeNodeClass</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="ChamgeNode.html#ChamgeNode-struct" title="ChamgeNode">ChamgeNode</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ChamgeNode.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> ChamgeNode
+        <span class="lineart">├──</span> <a class="link" href="ChamgeEdge.html" title="ChamgeEdge">ChamgeEdge</a>
+        <span class="lineart">├──</span> <a class="link" href="ChamgeHub.html" title="ChamgeHub">ChamgeHub</a>
+        <span class="lineart">╰──</span> <a class="link" href="ChamgeArbiter.html" title="ChamgeArbiter">ChamgeArbiter</a>
+</pre>
+</div>
+<div class="refsect1">
+<a name="ChamgeNode.description"></a><h2>Description</h2>
+<p>A <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> is a base object which implements the basic functionality present in every Chamge broker.</p>
+</div>
+<div class="refsect1">
+<a name="ChamgeNode.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="chamge-node-enroll"></a><h3>chamge_node_enroll ()</h3>
+<pre class="programlisting"><span class="returnvalue">ChamgeReturn</span>
+chamge_node_enroll (<em class="parameter"><code><a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> *self</code></em>,
+                    <em class="parameter"><code><span class="type">gboolean</span> lazy</code></em>);</pre>
+<p>Enrolls the node in the message broker</p>
+<div class="refsect3">
+<a name="chamge-node-enroll.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="chamge-node-enroll.returns"></a><h4>Returns</h4>
+<p> a <span class="type">ChamgeReturn</span> object</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="chamge-node-delist"></a><h3>chamge_node_delist ()</h3>
+<pre class="programlisting"><span class="returnvalue">ChamgeReturn</span>
+chamge_node_delist (<em class="parameter"><code><a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> *self</code></em>);</pre>
+<p>Delists the node from the message broker</p>
+<div class="refsect3">
+<a name="chamge-node-delist.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="chamge-node-delist.returns"></a><h4>Returns</h4>
+<p> a <span class="type">ChamgeReturn</span> object</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="chamge-node-activate"></a><h3>chamge_node_activate ()</h3>
+<pre class="programlisting"><span class="returnvalue">ChamgeReturn</span>
+chamge_node_activate (<em class="parameter"><code><a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> *self</code></em>);</pre>
+<p>Activates the node</p>
+<div class="refsect3">
+<a name="chamge-node-activate.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="chamge-node-activate.returns"></a><h4>Returns</h4>
+<p> a <span class="type">ChamgeReturn</span> object</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="chamge-node-deactivate"></a><h3>chamge_node_deactivate ()</h3>
+<pre class="programlisting"><span class="returnvalue">ChamgeReturn</span>
+chamge_node_deactivate (<em class="parameter"><code><a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> *self</code></em>);</pre>
+<p>Deactivates the node</p>
+<div class="refsect3">
+<a name="chamge-node-deactivate.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="chamge-node-deactivate.returns"></a><h4>Returns</h4>
+<p> a <span class="type">ChamgeReturn</span> object</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="chamge-node-get-uid"></a><h3>chamge_node_get_uid ()</h3>
+<pre class="programlisting"><span class="returnvalue">ChamgeReturn</span>
+chamge_node_get_uid (<em class="parameter"><code><a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> *self</code></em>,
+                     <em class="parameter"><code><span class="type">gchar</span> **uid</code></em>);</pre>
+<p>Gets the unique identifier for the <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a>.</p>
+<div class="refsect3">
+<a name="chamge-node-get-uid.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>uid</p></td>
+<td class="parameter_description"><p>unique <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> identifier</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="chamge-node-get-uid.returns"></a><h4>Returns</h4>
+<p> a <span class="type">ChamgeReturn</span> object</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="chamge-node-user-command"></a><h3>chamge_node_user_command ()</h3>
+<pre class="programlisting"><span class="returnvalue">ChamgeReturn</span>
+chamge_node_user_command (<em class="parameter"><code><a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> *self</code></em>,
+                          <em class="parameter"><code>const <span class="type">gchar</span> *cmd</code></em>,
+                          <em class="parameter"><code><span class="type">gchar</span> **out</code></em>,
+                          <em class="parameter"><code><span class="type">GError</span> **error</code></em>);</pre>
+<p>Sends a command using the message broker.</p>
+<div class="refsect3">
+<a name="chamge-node-user-command.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cmd</p></td>
+<td class="parameter_description"><p>user command to send</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>out</p></td>
+<td class="parameter_description"><p>response to user command</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>a <span class="type">GError</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="chamge-node-user-command.returns"></a><h4>Returns</h4>
+<p> a <span class="type">ChamgeReturn</span> object</p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="ChamgeNode.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="CHAMGE-TYPE-NODE:CAPS"></a><h3>CHAMGE_TYPE_NODE</h3>
+<pre class="programlisting">#define CHAMGE_TYPE_NODE       (chamge_node_get_type ())
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ChamgeNodeState"></a><h3>enum ChamgeNodeState</h3>
+<div class="refsect3">
+<a name="ChamgeNodeState.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="CHAMGE-NODE-STATE-NULL:CAPS"></a>CHAMGE_NODE_STATE_NULL</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="CHAMGE-NODE-STATE-ENROLLED:CAPS"></a>CHAMGE_NODE_STATE_ENROLLED</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="CHAMGE-NODE-STATE-ACTIVATED:CAPS"></a>CHAMGE_NODE_STATE_ACTIVATED</p></td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ChamgeNodeClass"></a><h3>struct ChamgeNodeClass</h3>
+<pre class="programlisting">struct ChamgeNodeClass {
+  GObjectClass parent_class;
+
+  /* virtual public methods */
+  ChamgeReturn (* enroll)               (ChamgeNode *self);
+  ChamgeReturn (* delist)               (ChamgeNode *self);
+
+  ChamgeReturn (* activate)             (ChamgeNode *self);
+  ChamgeReturn (* deactivate)           (ChamgeNode *self);
+
+  gchar *      (* get_uid)              (ChamgeNode *self);
+  ChamgeReturn (* user_command)         (ChamgeNode *self, const gchar* cmd, gchar **out, GError ** error);
+
+  /* signals */
+  /**
+   * ChamgeNodeClass::state_changed:
+   * @self: a #ChamgeNode object
+   *
+   * Signal to inform that the state of the Chamge device has changed.
+   */
+  void (* state_changed)                (ChamgeNode *self, ChamgeNodeState state);
+};
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ChamgeNode-struct"></a><h3>ChamgeNode</h3>
+<pre class="programlisting">typedef struct _ChamgeNode ChamgeNode;</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="ChamgeNode.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="ChamgeNode--state"></a><h3>The <code class="literal">“state”</code> property</h3>
+<pre class="programlisting">  “state”                    <a class="link" href="ChamgeNode.html#ChamgeNodeState" title="enum ChamgeNodeState"><span class="type">ChamgeNodeState</span></a></pre>
+<p>state.</p>
+<p>Flags: Read</p>
+<p>Default value: CHAMGE_NODE_STATE_NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ChamgeNode--uid"></a><h3>The <code class="literal">“uid”</code> property</h3>
+<pre class="programlisting">  “uid”                      <span class="type">gchar</span> *</pre>
+<p>uid.</p>
+<p>Flags: Read / Write / Construct Only</p>
+<p>Default value: NULL</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="ChamgeNode.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="ChamgeNode-state-changed"></a><h3>The <code class="literal">“state-changed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a>     *chamgenode,
+               <a class="link" href="ChamgeNode.html#ChamgeNodeState" title="enum ChamgeNodeState"><span class="type">ChamgeNodeState</span></a> arg1,
+               <span class="type">gpointer</span>        user_data)</pre>
+<p>Flags: Run Last</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.28</div>
+</body>
+</html>

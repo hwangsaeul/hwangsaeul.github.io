@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ChamgeHub: Chamge API reference</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="Chamge API reference">
+<link rel="up" href="Broker%20APIs.html" title="Broker APIs">
+<link rel="prev" href="ChamgeArbiter.html" title="ChamgeArbiter">
+<link rel="next" href="ChamgeEdge.html" title="ChamgeEdge">
+<meta name="generator" content="GTK-Doc V1.28 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#ChamgeHub.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#ChamgeHub.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#ChamgeHub.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#ChamgeHub.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="Broker%20APIs.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ChamgeArbiter.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ChamgeEdge.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="ChamgeHub"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ChamgeHub.top_of_page"></a>ChamgeHub</span></h2>
+<p>ChamgeHub — An object to handle Hub devices</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="ChamgeHub.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="ChamgeHub.html" title="ChamgeHub"><span class="returnvalue">ChamgeHub</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ChamgeHub.html#chamge-hub-new" title="chamge_hub_new ()">chamge_hub_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="ChamgeHub.html" title="ChamgeHub"><span class="returnvalue">ChamgeHub</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ChamgeHub.html#chamge-hub-new-full" title="chamge_hub_new_full ()">chamge_hub_new_full</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">ChamgeReturn</span>
+</td>
+<td class="function_name">
+<a class="link" href="ChamgeHub.html#chamge-hub-get-uid" title="chamge_hub_get_uid ()">chamge_hub_get_uid</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ChamgeHub.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody><tr>
+<td class="property_type"><span class="type">ChamgeBackend</span></td>
+<td class="property_name"><a class="link" href="ChamgeHub.html#ChamgeHub--backend" title="The “backend” property">backend</a></td>
+<td class="property_flags">Read / Write / Construct Only</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ChamgeHub.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody><tr>
+<td class="signal_type"><span class="returnvalue">gint</span></td>
+<td class="signal_name"><a class="link" href="ChamgeHub.html#ChamgeHub-user-command" title="The “user-command” signal">user-command</a></td>
+<td class="signal_flags">Run Last</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ChamgeHub.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="ChamgeHub.html#CHAMGE-TYPE-HUB:CAPS" title="CHAMGE_TYPE_HUB">CHAMGE_TYPE_HUB</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="ChamgeHub.html#ChamgeHubClass" title="struct ChamgeHubClass">ChamgeHubClass</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="ChamgeHub.html#ChamgeHub-struct" title="ChamgeHub">ChamgeHub</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ChamgeHub.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> <a class="link" href="ChamgeNode.html" title="ChamgeNode">ChamgeNode</a>
+        <span class="lineart">╰──</span> ChamgeHub
+</pre>
+</div>
+<div class="refsect1">
+<a name="ChamgeHub.description"></a><h2>Description</h2>
+<p>A <a class="link" href="ChamgeHub.html" title="ChamgeHub"><span class="type">ChamgeHub</span></a> is an object which implements the specific functionality present in every Hub device.</p>
+</div>
+<div class="refsect1">
+<a name="ChamgeHub.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="chamge-hub-new"></a><h3>chamge_hub_new ()</h3>
+<pre class="programlisting"><a class="link" href="ChamgeHub.html" title="ChamgeHub"><span class="returnvalue">ChamgeHub</span></a> *
+chamge_hub_new (<em class="parameter"><code>const <span class="type">gchar</span> *uid</code></em>);</pre>
+<p>Creates a new <a class="link" href="ChamgeHub.html" title="ChamgeHub"><span class="type">ChamgeHub</span></a> object</p>
+<div class="refsect3">
+<a name="chamge-hub-new.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>uid</p></td>
+<td class="parameter_description"><p>unique identifier for the <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="chamge-hub-new.returns"></a><h4>Returns</h4>
+<p> the newly created object</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="chamge-hub-new-full"></a><h3>chamge_hub_new_full ()</h3>
+<pre class="programlisting"><a class="link" href="ChamgeHub.html" title="ChamgeHub"><span class="returnvalue">ChamgeHub</span></a> *
+chamge_hub_new_full (<em class="parameter"><code>const <span class="type">gchar</span> *uid</code></em>,
+                     <em class="parameter"><code><span class="type">ChamgeBackend</span> backend</code></em>);</pre>
+<p>Creates a new <a class="link" href="ChamgeHub.html" title="ChamgeHub"><span class="type">ChamgeHub</span></a> object with specific parameters</p>
+<div class="refsect3">
+<a name="chamge-hub-new-full.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>uid</p></td>
+<td class="parameter_description"><p>unique identifier for the <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>backend</p></td>
+<td class="parameter_description"><p>the backend support for message broker</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="chamge-hub-new-full.returns"></a><h4>Returns</h4>
+<p> the newly created object</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="chamge-hub-get-uid"></a><h3>chamge_hub_get_uid ()</h3>
+<pre class="programlisting"><span class="returnvalue">ChamgeReturn</span>
+chamge_hub_get_uid (<em class="parameter"><code><a class="link" href="ChamgeHub.html" title="ChamgeHub"><span class="type">ChamgeHub</span></a> *self</code></em>,
+                    <em class="parameter"><code><span class="type">gchar</span> **uid</code></em>);</pre>
+<p>Gets the unique identifier for the <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a>.</p>
+<div class="refsect3">
+<a name="chamge-hub-get-uid.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a <a class="link" href="ChamgeHub.html" title="ChamgeHub"><span class="type">ChamgeHub</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>uid</p></td>
+<td class="parameter_description"><p>unique <a class="link" href="ChamgeNode.html" title="ChamgeNode"><span class="type">ChamgeNode</span></a> identifier</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="chamge-hub-get-uid.returns"></a><h4>Returns</h4>
+<p> a <span class="type">ChamgeReturn</span> object</p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="ChamgeHub.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="CHAMGE-TYPE-HUB:CAPS"></a><h3>CHAMGE_TYPE_HUB</h3>
+<pre class="programlisting">#define CHAMGE_TYPE_HUB       (chamge_hub_get_type ())
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ChamgeHubClass"></a><h3>struct ChamgeHubClass</h3>
+<pre class="programlisting">struct ChamgeHubClass {
+  ChamgeNodeClass parent_class;
+  
+  /* methods */
+  gchar* (* get_uid)                    (ChamgeHub *self);
+
+  /* signals */
+  void (*user_command)                  (ChamgeHub    *self,
+                                        const gchar   *cmd,
+                                        gchar        **response,
+                                        GError       **error);
+};
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ChamgeHub-struct"></a><h3>ChamgeHub</h3>
+<pre class="programlisting">typedef struct _ChamgeHub ChamgeHub;</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="ChamgeHub.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="ChamgeHub--backend"></a><h3>The <code class="literal">“backend”</code> property</h3>
+<pre class="programlisting">  “backend”                  <span class="type">ChamgeBackend</span></pre>
+<p>backend.</p>
+<p>Flags: Read / Write / Construct Only</p>
+<p>Default value: CHAMGE_BACKEND_UNKNOWN</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="ChamgeHub.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="ChamgeHub-user-command"></a><h3>The <code class="literal">“user-command”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">gint</span>
+user_function (<a class="link" href="ChamgeHub.html" title="ChamgeHub"><span class="type">ChamgeHub</span></a> *chamgehub,
+               <span class="type">gchar</span>     *arg1,
+               <span class="type">gpointer</span>   arg2,
+               <span class="type">gpointer</span>   arg3,
+               <span class="type">gpointer</span>   user_data)</pre>
+<p>Flags: Run Last</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.28</div>
+</body>
+</html>
