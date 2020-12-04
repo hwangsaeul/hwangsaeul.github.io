@@ -1,7 +1,7 @@
 ## Getting Started
 
 ### Install meson and ninja
-Meson 0.40 and newer is required.
+Meson 0.49 or newer is required.
 
 ### Build module
 You can get library and executables built running:
