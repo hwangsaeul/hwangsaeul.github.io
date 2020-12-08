@@ -19,12 +19,20 @@ The ecosystem consists of a distributed system that allows clients to access Edg
 
 ![SRT System Overview](./assets/img/h8l-system-overview.png)
 
-## Modules
-*   [Gaeguli](https://github.com/hwangsaeul/gaeguli/blob/master/README.md): SRT streaming library generator
+## Libraries
+*   [Gaeguli](https://github.com/hwangsaeul/gaeguli/blob/master/README.md): SRT streaming library
 
-*   [Gaeul](https://github.com/hwangsaeul/gaeul/blob/master/README.md): A reference application that uses *Chamge* and *Gaeguli* to generate SRT stream on edge device
+*   [Hwangsae](https://github.com/hwangsaeul/hwangsae/blob/master/README.md): Stream relay and access control library
 
-*   [Hwangsae](https://github.com/hwangsaeul/hwangsae/blob/master/README.md): Relay and Recorder servers
+## Services
+
+* *Source* - provides access to capture devices, encodes and streams video
+
+* *Relay* - provides stream forwarding and accesss control
+
+* *MJPEG* - transcodes H.264 MPEG-TS into MJPEG stream
+
+All services are implemented in [Gaeul](https://github.com/hwangsaeul/gaeul/blob/master/README.md) component on top of *libgaeguli* and *libhwangsae*.
 
 ## Description
 To allow N different clients to access the streaming genearted by an Edge device, this project implements a distributed system.
